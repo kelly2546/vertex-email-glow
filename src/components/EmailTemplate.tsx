@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import vertexLogo from "@/assets/vertex-logo.png";
 
 interface EmailTemplateProps {
   children: ReactNode;
@@ -32,7 +31,7 @@ export const EmailTemplate = ({ children }: EmailTemplateProps) => {
           gap: '15px'
         }}>
           <img 
-            src={vertexLogo} 
+            src="/lovable-uploads/486d5854-1de7-4743-a0a8-e8801c11e26e.png" 
             alt="Vertex Trading Logo" 
             style={{ height: '40px', width: 'auto' }}
           />
